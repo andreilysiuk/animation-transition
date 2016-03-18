@@ -170,6 +170,9 @@ input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
     list-style: none;
     margin: 0;
     padding: 0;
+    -webkit-transition: left 0.8s ease-in;
+    -moz-transition: left 0.8s ease-in;
+    transition: left 0.8s ease-in;
 }
 
 .sp-slider > li {
